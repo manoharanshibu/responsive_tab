@@ -1,0 +1,53 @@
+.TabList {
+  position: relative;
+  display: block; 
+}
+
+ul{
+  margin-bottom: 0px;
+}
+
+.tabName {
+  display: inline-block;
+  background-color: #eaeaea;
+  border-radius: 6px 6px 0 0;
+  margin-left: 1px;
+  cursor: pointer; }
+  .tabName a {
+    padding: 5px 10px;
+    display: block;
+    color: #5591d4; }
+  .tabName:hover {
+    background-color: #fff; }
+  .tabName.selected {
+    background-color: #fff; }
+
+.TabDetails {
+  background-color: #eaeaea;
+  max-width: 400px;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left; }
+  .TabDetails input {
+    font-size: 14px; }
+  .TabDetails a {
+    color: #5591d4;
+    display: block; }
+  .TabDetails .avatar,
+  .TabDetails .details {
+    display: inline-block;
+    vertical-align: middle; }
+  .TabDetails .details {
+    margin-left: 10px; }
+  .TabDetails .avatar {
+    min-width: 50px; }
+
+  .inputBox{
+    border: none;
+    background-color: rgba(0,0,0,0.0);
+  }
+  .TabDetails .points {
+    color: #949494;
+    padding-top: 10px;
+    font-size: 14px; 
+  }
