@@ -9,7 +9,7 @@ export const ContentDetails = (props) => {
           <img alt={props.tabContent.name} src={props.tabContent.avatar} />
         </span>
         <span className="details">
-          <input className="inputBox" defaultValue={props.tabContent.name} onChange={props.nameChanged} />
+          <input className="inputBox" value={props.tabContent.name} onChange={props.nameChanged} />
           <div className="points">{props.tabContent.points} points</div>
         </span>
       </span>

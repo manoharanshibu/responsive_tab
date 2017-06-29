@@ -38,7 +38,6 @@ export default class App extends Component {
   }
 
   changeTab = (id) => {
-
     this.setState({
       selectedTab: id
     });
