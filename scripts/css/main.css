@@ -1,5 +1,33 @@
-@media (max-width: 650px) {
-  .progtrckr em {
-    display: inline;
+.mobile {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .mobile {
+    display: block;
   }
+}
+
+.desktop {
+  display: block;
+}
+
+@media (max-width: 450px) {
+  .desktop {
+    display: none;
+  }
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
