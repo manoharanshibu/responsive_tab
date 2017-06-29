@@ -2,6 +2,17 @@
 # ReactJS, ES6, Webpack
 # Front-end coding test
 
+## Running the test
+npm i
+npm run start
+
+
+## sample tests
+npm run test
+
+## eslint
+npm run lint
+
 ## Overview
 This should be a short coding assignment that should help you demonstrate your coding skills and way of thinking.
 
